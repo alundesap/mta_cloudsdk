@@ -21,15 +21,17 @@ app.get("/", function (req, res) {
 			.filter(
 				bpService.BusinessPartner.FIRST_NAME.equals("John")
 			)
-			/*
+			
 			.withCustomHeaders({
-				"APIKey": "<API_KEY>"
+				"APIKey": "tyysDyd3MpHiV5AcChVbkdN4k38sT5Ep"
 			})
 			.execute({
 				url: "https://sandbox.api.sap.com/s4hanacloud"
-			*/
+			
+			/*
 			.execute({
 				destinationName: "S4"
+			*/
 			})
 	};
 
